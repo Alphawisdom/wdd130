@@ -1,94 +1,69 @@
-/* GENERAL PAGE STYLE */
+/* GENERAL */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
 }
 
-/* HEADER & NAVIGATION */
-header {
-    background-color: #222;
-    padding: 15px;
-}
-
+/* NAVIGATION (REQUIRED FIX) */
 nav {
+    background-color: #333;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 
 nav a {
     color: white;
+    padding: 10px;
+    display: block;
     text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
 }
 
-nav a:hover {
-    color: #ffd700;
+/* REQUIRED h1 */
+h1 {
+    color: #333;
 }
 
-/* MAIN CONTENT */
+/* MAIN */
 main {
     max-width: 840px;
-    /* REQUIRED */
     margin: 20px auto;
     text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
 }
 
-/* PROFILE IMAGE (MAIN IMAGE) */
+/* REQUIRED main img FIX */
 main img {
     width: 150px;
-    /* REQUIRED */
     height: auto;
-    border-radius: 10px;
+    border: 2px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
 }
 
-/* PARAGRAPH FIX */
+/* REQUIRED p */
 p {
     padding: 0;
-    /* REQUIRED */
-    color: #333;
 }
 
-/* ASIDE SECTION (REQUIRED STYLING) */
+/* ASIDE */
 aside {
     width: 20rem;
-    /* REQUIRED */
     margin: 1rem auto;
-    /* REQUIRED */
     border: 1px solid rgb(0 0 0 / 0.2);
-    /* REQUIRED */
     padding: 1rem;
-    /* REQUIRED */
     background-color: #eee;
-    /* REQUIRED */
     color: #333;
-    /* REQUIRED */
     text-align: center;
-    border-radius: 10px;
 }
 
-/* ASIDE IMAGE */
 aside img {
     width: 200px;
-    /* REQUIRED */
     height: auto;
-    /* REQUIRED */
-    border-radius: 8px;
 }
 
-/* FOOTER (REQUIRED STYLING) */
+/* FOOTER */
 footer {
     margin-top: 15px;
-    /* REQUIRED */
     border-top: 1px solid #000;
-    /* REQUIRED */
     text-align: center;
-    /* REQUIRED */
-    padding: 10px;
-    background-color: #222;
-    color: white;
 }
